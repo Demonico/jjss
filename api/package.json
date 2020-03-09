@@ -1,0 +1,36 @@
+{
+  "name": "jjss-api",
+  "version": "0.1.0",
+  "description": "API for Jarrod's Job Search System",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Demonico/jjss.git"
+  },
+  "author": "Jarrod Van Doren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Demonico/jjss/issues"
+  },
+  "homepage": "https://github.com/Demonico/jjss#readme",
+  "devDependencies": {
+    "@types/mongoose": "^5.7.3",
+    "@types/node": "^13.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.9.3"
+  }
+}
